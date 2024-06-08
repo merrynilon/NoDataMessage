@@ -1,0 +1,48 @@
+.noData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.noDataIcon {
+  width: 60px;
+  height: auto;
+  justify-self: center;
+}
+
+.noDataImage {
+  width: 100px;
+  height: auto;
+  justify-self: center;
+}
+
+.noDataImageText {
+  text-align: center;
+  padding: 5px;
+}
+
+.noDataText {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.noDataErrorText {
+  color: var(--secondary-color);
+}
+
+.noDataErrorIcon polygon,
+.noDataErrorIcon path {
+  fill: var(--secondary-color) !important;
+}
+
+@media (min-width: 1024px) {
+  .noData {
+    margin-bottom: 80px;
+  }
+  .noDataBox {
+    margin-bottom: 40px !important;
+  }
+}
